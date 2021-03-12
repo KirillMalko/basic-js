@@ -21,7 +21,7 @@ describe('Recursive depth', () => {
 
     //Functional requirements
     describe('functional requirements', () => {
-        it.optional('returns correct depth of flat arrays', () => {
+        it.optional('returns correct depth of flat arrays's1ga, () => {
             for (let i = 1; i < 100; i++) {
                 const flatArr = createFlatArr(i);
                 assert.equal(calculateDepth(flatArr), 1);
